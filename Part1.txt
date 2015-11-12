@@ -1,0 +1,45 @@
+Web Template:
+
+1. Assigns the page/program that will process the form once submitted.
+
+2. Declares the type of superglobal to be used in processing the form; in this case, 
+	the $_GET autoglobal will create URL tokens to send the form information.
+	
+3. Form buttons used as site navigation.
+
+4. This snippet of code uses or displays the declared file. In this case, the file
+	included is to display and format a section of the website.
+	
+5. Checks if the superglobal $_GET has a value appended to the URL for the key 'content'.
+	
+6. This is a switch clause.
+
+7. Default is included in the switch statements in case a match was not made.
+
+8. If the superglobal was not set then the home page will be displayed after 
+	the header section.
+
+Is Prime with Validation:
+
+1. A php function with one parameter; returns true or false.
+
+2. A global variable (declared outside of a function) that is being referenced 
+	inside the function.
+	
+3. Form level variables instantiated to an empty string.
+
+4. The count function returns the number of array references that have content in them.
+	Basically, if the user has submitted form, continue.
+	
+5. The index of the superglobal post array and assigning that data the a variable.
+
+6. Calling a function to see if the input is valid.
+
+7.
+
+8. 
+
+9. "Making it sticky": placing the user submitted data back into the form because
+	http is stateless and doesn't do this for you.
+	
+10.
